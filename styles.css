@@ -13,12 +13,19 @@ h1 {
     border-right: 3px double black;
 }
 h2 {
+    background-color: grey;
     font-size: 1.25em;
     text-align: center;
 }
 
+h3{
+    background-color: grey;
+    font-size: 1.15em;
+    text-align: center;
+}
+
 .pics {
-    width: 200px;
+    width: 100px;
     height: auto;
     display: block;
     margin: 20px auto;
