@@ -1,6 +1,6 @@
 body {
     color: red;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* <-- semicolon */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* ← semicolon */
     margin: 0;
 }
 h1 {
