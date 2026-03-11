@@ -1,17 +1,17 @@
-body{
-    color:red;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+body {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* <-- semicolon */
     margin: 0;
 }
-h1{
-    background-color:grey;
+h1 {
+    background-color: grey;
     width: 800px;
     margin: 0 auto;
     padding: 30px;
     border-left: 3px double black;
     border-right: 3px double black;
 }
-h2{
+h2 {
     font-size: 1.25em;
     text-align: center;
 }
