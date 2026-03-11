@@ -1,6 +1,6 @@
 body {
     color: darkred;
-    background-color: darkgrey;
+    background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* ← semicolon */
     margin: 0;
 }
@@ -9,18 +9,21 @@ h1 {
     width: 800px;
     margin: 0 auto;
     padding: 30px;
-    border-left: 3px double black;
-    border-right: 3px double black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    color: darkred;
 }
 h2 {
     background-color: grey;
     font-size: 1.25em;
     text-align: center;
+    color: darkred;
 }
 
 h3{
     background-color: grey;
     font-size: 1.15em;
+    color: darkred;
     text-align: center;
 }
 
