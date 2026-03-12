@@ -1,18 +1,17 @@
 body {
-    color: darkred;
-    background-color: black;
+    color: black;
+    background-color: darkred;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* ← semicolon */
     margin: 0;
 }
 h1 {
-    background-color: grey;
+    background-color: darkred;
     width: 800px;
     margin: 0 auto;
     padding: 30px;
     border-left: 3px solid black;
     border-right: 3px solid black;
-    color: darkred;
-}
+    color: darkred;    text-align: center;}
 h2 {
     background-color: grey;
     font-size: 1.25em;
@@ -39,9 +38,9 @@ h3{
     width: 200px;
     padding: 20px;
     border: 2px solid darkred;
-    float: left;
-    margin-right: 20px;
-    margin-left: 10px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 #sidebar h4 {
