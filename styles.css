@@ -11,18 +11,22 @@ h1 {
     padding: 30px;
     border-left: 3px solid black;
     border-right: 3px solid black;
-    color: darkred;    text-align: center;}
+    border-bottom: 3px solid black;
+    color: white;    text-align: center;}
 h2 {
-    background-color: grey;
+    background-color: darkred;
+      border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
     font-size: 1.25em;
     text-align: center;
-    color: darkred;
+    color: white;
 }
 
 h3{
-    background-color: grey;
-    font-size: 1.15em;
-    color: darkred;
+    background-color: darkred;
+    font-size: 1.3em;
+    color: white;
     text-align: center;
 }
 
@@ -30,23 +34,48 @@ h3{
     width: 300px;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 10px 0;
+}
+
+#images-section {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: darkred;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+#images-section h4 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    background-color: black;
+    padding: 10px;
+}
+
+#content {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: darkred;
 }
 
 #sidebar {
-    background-color: grey;
+    background-color: darkred;
     width: 200px;
     padding: 20px;
-    border: 2px solid darkred;
+    border: 2px solid black;
     float: right;
     margin-left: 20px;
     margin-top: 20px;
 }
 
 #sidebar h4 {
-    color: darkred;
+    color: white;
     text-align: center;
     margin-top: 0;
+    background-color: black;
 }
 
 #sidebar ul {
@@ -59,9 +88,10 @@ h3{
 }
 
 #sidebar a {
-    color: darkred;
+    color: white;
     text-decoration: none;
     font-weight: bold;
+    background-color: black;
 }
 
 #sidebar a:hover {
