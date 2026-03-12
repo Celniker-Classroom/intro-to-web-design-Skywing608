@@ -28,8 +28,43 @@ h3{
 }
 
 .pics {
-    width: 100px;
+    width: 300px;
     height: auto;
     display: block;
     margin: 20px auto;
+}
+
+#sidebar {
+    background-color: grey;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid darkred;
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#sidebar h4 {
+    color: darkred;
+    text-align: center;
+    margin-top: 0;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar li {
+    margin: 10px 0;
+}
+
+#sidebar a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
 }
