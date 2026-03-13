@@ -6,16 +6,22 @@ body {
 }
 h1 {
     background-color: darkred;
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
     padding: 30px;
     border-left: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
-    color: white;    text-align: center;}
+    border-top: 3px solid black;
+    color: white;    
+    text-align: center;
+    font-size: 2em;}
 h2 {
     background-color: darkred;
-      border-left: 3px solid black;
+    width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+    border-left: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     font-size: 1.25em;
@@ -28,10 +34,11 @@ h3{
     font-size: 1.3em;
     color: white;
     text-align: center;
+    text-decoration: underline;
 }
 
 .pics {
-    width: 300px;
+    width: 350px;
     height: auto;
     display: block;
     margin: 10px 0;
@@ -39,7 +46,7 @@ h3{
 
 #images-section {
     float: right;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-bottom: 20px;
     background-color: darkred;
     padding: 15px;
@@ -76,6 +83,8 @@ h3{
     text-align: center;
     margin-top: 0;
     background-color: black;
+    float: right;
+    margin-right: 30px;
 }
 
 #sidebar ul {
@@ -96,4 +105,12 @@ h3{
 
 #sidebar a:hover {
     text-decoration: underline;
+}
+
+/*unvisited links*/
+a:link {
+    color: white;
+    text-shadow: black 1px 1px 0px;
+    text-decoration: underline;
+    
 }
