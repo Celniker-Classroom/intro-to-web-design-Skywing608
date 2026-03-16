@@ -8,8 +8,6 @@ body {
 }
 h1 {
     background-color: darkred;
-    width: 600px;
-    margin: 0 auto;
     padding: 20px;
     border-left: 3px solid black;
     border-right: 3px solid black;
@@ -20,9 +18,7 @@ h1 {
     font-size: 2.5em;}
 h2 {
     background-color: darkred;
-    width: 600px;
     padding: 20px;
-    margin: 0 auto;
     border-left: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
@@ -69,8 +65,7 @@ h3{
 }
 
 #content {
-    width: 800px;
-    margin: 0 auto;
+    flex: 1;
     padding: 20px;
     background-color: darkred;
 }
@@ -80,10 +75,6 @@ h3{
     width: 200px;
     padding: 20px;
     border: 2px solid black;
-    float: right;
-    margin-left: 40px;
-    margin-right: 140px;
-    margin-top: 60px;
 }
 
 
@@ -149,19 +140,63 @@ a:hover {
     border-left: 3px solid black;
     border-right: 3px solid black;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 /* Large screens (tablets and below) */
 @media (max-width: 1200px) {
-    /* Add styles for screens 1200px and smaller */
+    #container {
+        flex-direction: column;
+    }
+    #sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #content {
+        order: 2;
+    }
+    #sidebar {
+        order: 1;
+    }
 }
 
 /* Medium screens (small tablets and below) */
 @media (max-width: 992px) {
-    /* Add styles for screens 992px and smaller */
+    #container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
 }
 
 /* Small screens (phones and below) */
 @media (max-width: 768px) {
-    /* Add styles for screens 768px and smaller */
+    #container {
+        width: 95%;
+        padding: 10px;
+    }
+    #content {
+        padding: 10px;
+    }
+    #sidebar {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    #images-section {
+        float: none;
+        margin: 0;
+    }
 }
