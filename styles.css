@@ -32,17 +32,17 @@ h2 {
 
 h3{
     background-color: darkred;
-    font-size: 1.3em;
+    font-size: 1.8em;
     color: white;
     text-align: center;
     text-decoration: underline;
 }
 
 .pics {
-    width: 350px;
+    width: 250px;
     height: auto;
-    display: block;
-    margin: 10px 0;
+    display: inline-block;
+    margin: 10px;
 }
 
 #images-section {
